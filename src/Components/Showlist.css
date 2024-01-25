@@ -1,0 +1,47 @@
+/* ShowList.css */
+
+.show-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.show-card {
+  max-width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.show-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.show-description {
+  color: #555;
+  line-height: 1.4;
+}
+
+.show-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.show-link:hover {
+  color: #2980b9;
+}
