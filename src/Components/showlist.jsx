@@ -1,4 +1,3 @@
-// ShowList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './ShowList.css';
@@ -7,8 +6,6 @@ const ShowList = () => {
   const [shows, setShows] = useState([]);
 
   useEffect(() => {
-    // Fetch your list of shows and update the state
-    // For demonstration purposes, let's assume you have a function fetchShows() that fetches the list
     const fetchShows = async () => {
       try {
         const response = await fetch('https://api.tvmaze.com/shows');
